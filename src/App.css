@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Trap";
+  src: url(../public/font/Trap-Regular.otf);
+}
+
+@font-face {
+  font-family: "Trap Light";
+  src: url(../public/font/Trap-Light.otf);
+}
+
+@font-face {
+  font-family: "Trap Medium";
+  src: url(../public/font/Trap-Medium.otf);
+}
+
+@font-face {
+  font-family: "Trap Bold";
+  src: url(../public/font/Trap-Bold.otf);
+}
