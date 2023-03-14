@@ -5,26 +5,26 @@
 }
 
 @font-face {
-  font-family: "Trap";
-  src: url(../public/font/Trap-Regular.otf);
+  font-family: "Trap300";
+  src: url("./assets/font/Trap-Light.otf");
 }
-
 @font-face {
-  font-family: "Trap Light";
-  src: url(../public/font/Trap-Light.otf);
+  font-family: "Trap400";
+  src: url("./assets/font/Trap-Regular.otf");
 }
-
 @font-face {
-  font-family: "Trap Medium";
-  src: url(../public/font/Trap-Medium.otf);
+  font-family: "Trap500";
+  src: url("./assets/font/Trap-Medium.otf");
 }
-
 @font-face {
-  font-family: "Trap Bold";
-  src: url(../public/font/Trap-Bold.otf);
+  font-family: "Trap600";
+  src: url("./assets/font/Trap-SemiBold.otf");
 }
-
 @font-face {
-  font-family: "Trap Regular";
-  src: url(../public/font/Trap-Regular.otf);
+  font-family: "Trap700";
+  src: url("./assets/font/Trap-Bold.otf");
+}
+@font-face {
+  font-family: "Trap900";
+  src: url("./assets/font/Trap-Black.otf");
 }

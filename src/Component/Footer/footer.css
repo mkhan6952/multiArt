@@ -17,7 +17,7 @@
 }
 
 .f-main .sell-art {
-  font-family: "Trap";
+  font-family: "Trap400";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -34,7 +34,7 @@
 }
 
 .f-main .f-links {
-  font-family: "Trap";
+  font-family: "Trap500";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -51,7 +51,7 @@
 .f-main .f-copyright {
   padding-top: 60px;
 
-  font-family: "Trap";
+  font-family: "Trap400";
   font-style: normal;
   font-weight: 400;
   font-size: 22.5684px;
@@ -67,4 +67,47 @@
 
 .f-main .f-social-icons a {
   padding: 0px 20px;
+}
+
+@media screen and (max-width: 1441px) {
+  .f-main .f-links {
+    font-size: 14px;
+  }
+  .f-main .f-copyright {
+    font-size: 16px;
+  }
+
+  .f-main .sell-art {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .f-main .sell-art {
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    padding-top: 30px;
+  }
+  .f-main .f-links {
+    font-size: 11px;
+  }
+  .f-main .f-copyright {
+    padding-top: 40px;
+    font-family: "Trap400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+  }
 }

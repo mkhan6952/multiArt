@@ -125,7 +125,7 @@ const UpComing = () => {
             />
           </div>
           <div className="col-lg-6 col-sm-12 right-side">
-            <h1>Lady Layer</h1>
+            <h1 className="lady">Lady Layer</h1>
             <p>
               Created by <img src="..\asset\upcoming\Pic.svg" alt="image" /> Leo
               Harper
@@ -171,7 +171,7 @@ const UpComing = () => {
           <div className="keepnft-content">
             <div className="keepnft-heading">
               <h1>Up coming</h1>
-              <h2>arrow here</h2>
+              {/* <h2>arrow here</h2> */}
             </div>
 
             <Slider {...settings}>

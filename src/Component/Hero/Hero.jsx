@@ -38,7 +38,7 @@ const Hero = () => {
                 <button className="explore">Explore</button>
                 <button className="learn">Learn More</button>
 
-                <p className="para mt-4">Built for collaboration.</p>
+                <p className="para para1">Built for collaboration.</p>
                 <p className="para">
                   Design,create, store and trade ArtNFTs easily.
                 </p>
@@ -79,6 +79,47 @@ const Hero = () => {
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+        </div>
+      </div>
+
+      {/* partner sec  */}
+      <div className="partner-sec ">
+        <div className="partner-inners">
+          <div>
+            <img
+              className="img-fluid"
+              src="..\asset\hero\adobe-photoshop.svg"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <img
+              className="img-fluid"
+              src="..\asset\hero\Vector.svg"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <img
+              className="img-fluid"
+              src="..\asset\hero\adobe-aftereffects.svg"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <img
+              className="img-fluid"
+              src="..\asset\hero\adobe-dimension.svg"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <img
+              className="img-fluid"
+              src="..\asset\hero\adobe-characteranimator.svg"
+              alt="logo"
+            />
+          </div>
         </div>
       </div>
     </>
