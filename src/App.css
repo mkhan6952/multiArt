@@ -23,3 +23,8 @@
   font-family: "Trap Bold";
   src: url(../public/font/Trap-Bold.otf);
 }
+
+@font-face {
+  font-family: "Trap Regular";
+  src: url(../public/font/Trap-Regular.otf);
+}

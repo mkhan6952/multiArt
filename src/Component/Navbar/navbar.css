@@ -1,0 +1,114 @@
+.navbar-sec {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 9999;
+  padding: 26px 82px;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+}
+
+.navbar-sec .nav-links ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  /* background-color: red; */
+  padding-left: 0px;
+}
+
+.navbar-sec .nav-links ul li {
+  padding: 13px 30px;
+  margin-left: 0px;
+
+  font-family: "Trap Light";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navbar-sec .search-input {
+  /* background-color: red; */
+}
+
+.navbar-sec .search-input input {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  padding: 7px 100px 7px 11px;
+  outline: none;
+
+  color: white;
+  font-family: "Trap Light";
+}
+
+.navbar-sec ::-webkit-input-placeholder {
+  /* Edge */
+  font-family: "Trap Light";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.navbar-sec :-ms-input-placeholder {
+  /* Internet Explorer */
+  font-family: "Trap Light";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.navbar-sec ::placeholder {
+  font-family: "Trap Light";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.navbar-sec .btns .login {
+  background: transparent;
+  font-family: "Trap Light";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+
+  outline: none;
+  border: none;
+  padding: 0px 40px;
+}
+
+.navbar-sec .btns .wallet {
+  background: #ffffff;
+  border-radius: 3px;
+
+  font-family: "Trap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+
+  color: #000000;
+
+  outline: none;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 40px;
+}

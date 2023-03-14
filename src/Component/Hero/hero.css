@@ -1,0 +1,100 @@
+.hero-sec {
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.hero-sec .carousel-caption {
+  position: absolute;
+  /* right: 33%; */
+  /* bottom: 1.25rem; */
+  top: 50%;
+  left: 25%;
+  transform: translate(-25%, -50%);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: start !important;
+
+  /* background-color: red; */
+}
+
+.hero-sec .discover {
+  font-family: "Trap";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 68px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.hero-sec .explore {
+  font-family: "Trap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.923px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  background: #030303;
+  outline: none;
+  border: none;
+  padding: 16px 60px;
+}
+
+.hero-sec .learn {
+  font-family: "Trap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.923px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  background: rgba(217, 217, 217, 0.14);
+  border: 2px solid #ffffff;
+  outline: none;
+  padding: 14px 60px;
+  margin-left: 25px;
+}
+
+.hero-sec .para {
+  font-family: "Trap";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.hero-sec .carousel-indicators {
+  bottom: 70px !important;
+}
+
+.hero-sec .carousel-indicators [data-bs-target] {
+  background-color: transparent;
+  border: 1px solid #fff !important;
+  border-radius: 10px;
+
+  opacity: 0.8 !important;
+}
+
+.hero-sec .carousel-indicators .active {
+  opacity: 1;
+  background-color: #fff !important;
+  width: 90px !important;
+}
+
+.hero-sec .overlay {
+  width: 100%;
+  height: 277px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+
+  background: linear-gradient(180deg, #272727 0%, rgba(0, 0, 0, 0) 100%);
+}
