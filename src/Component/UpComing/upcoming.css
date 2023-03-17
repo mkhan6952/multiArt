@@ -299,12 +299,12 @@
   border: 1px solid #ffffff;
 }
 .upcoming-main .slick-prev,
-.slick-next {
+.upcoming-main .slick-next {
   z-index: 999;
   top: -13% !important;
 }
 
-.slick-prev {
+.upcoming-main .slick-prev {
   left: 92% !important;
 }
 
@@ -312,11 +312,11 @@
   right: 30px !important;
 }
 
-.slick-prev:before {
+.upcoming-main .slick-prev:before {
   content: url(../../../public/asset/upcoming/arrow-left.png) !important;
 }
 
-.slick-next:before {
+.upcoming-main .slick-next:before {
   content: url(../../../public/asset/upcoming/arrow-right.png) !important;
 }
 
@@ -632,7 +632,7 @@
     opacity: 0.5;
     padding-top: 5px;
   }
-  .slick-prev {
+  .upcoming-main .slick-prev {
     left: 87% !important;
   }
 

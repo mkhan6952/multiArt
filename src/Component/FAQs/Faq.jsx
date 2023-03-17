@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./faq.css";
 import { Icon } from "@iconify/react";
 import Accordion from "react-bootstrap/Accordion";
+import ApplyNow from "./ApplyNow";
 
 const Faq = () => {
   const [setopen, setclose] = useState(false);
@@ -256,17 +257,7 @@ const Faq = () => {
       </section>
 
       {/* Apply Now Section */}
-      <div className="apply-now">
-        <div className="apply-now-inner">
-          <h1>Submit artist profile</h1>
-          <p>
-            MultiArt provides partners with exclusive pages, collection
-            certification, and launchpad services to boost project development
-            and engagement.
-          </p>
-          <button>Apply Now</button>
-        </div>
-      </div>
+      <ApplyNow />
     </>
   );
 };

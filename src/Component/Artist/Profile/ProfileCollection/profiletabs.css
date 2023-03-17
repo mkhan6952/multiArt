@@ -1,0 +1,477 @@
+/* collection */
+
+.p-collection-content {
+  padding-top: 45px;
+}
+
+.p-collection-content .image-container {
+  position: relative;
+  /* background-color: red; */
+}
+
+.p-collection-content .left img {
+  border-radius: 4px;
+}
+
+.p-collection-content .left .row {
+  --bs-gutter-x: 10px !important;
+}
+
+.p-collection-content .left .other-image {
+  margin: auto;
+  position: absolute;
+  bottom: 25px;
+  padding: 0px 30px;
+}
+
+.p-collection-content .left .other-image img {
+  cursor: pointer;
+}
+
+.p-collection-content .left .title {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31.3805px;
+  line-height: 35px;
+  padding-top: 10px;
+
+  color: #000000;
+}
+
+.p-collection-content .left .intro {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.9204px;
+  line-height: 23px;
+  padding-top: 10px;
+
+  color: #000000;
+}
+
+.p-collection-content .left .para {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  padding-top: 12px;
+
+  color: #000000;
+}
+
+.p-collection-content .left .del-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.p-collection-content .left .del-btn p {
+  font-family: "Trap700";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.p-collection-content .left .del-btn .ico {
+  text-align: right;
+}
+
+/*============================== created===========================*/
+
+.p-created-content {
+  padding-top: 40px;
+}
+
+.p-created-content .all-card-2 {
+  background-color: #000000;
+  height: 675px;
+}
+
+.p-created-content .card-one-img img {
+  width: 100%;
+}
+
+.p-created-content .card-one-content {
+  background: #000000;
+  border-radius: 0px;
+  padding-left: 15px;
+  /* padding-bottom: 100px; */
+}
+
+.p-created-content .card-one-content h2 {
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: justify;
+  padding-top: 15px;
+  color: #ffffff;
+}
+
+.p-created-content .card-one-content h3 {
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: justify;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.p-created-content .card-one-content h4 {
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: justify;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.p-created-content .card-one-content hr.solid {
+  border-top: 1px solid #ffffff;
+  opacity: 1;
+  margin-right: 16px;
+}
+
+.p-created-content .card-one-content .auction {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  padding-top: 12px;
+  text-align: justify;
+  color: #848484;
+}
+
+.p-created-content .card-one-content .owner {
+  padding-top: 55px;
+}
+
+.p-created-content .card-one-content .timer {
+  padding-right: 16px;
+  padding-top: 5px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+
+.p-created-content .card-one-content .timer .timer-left {
+  display: flex;
+}
+
+.p-created-content .card-one-content .timer .timing {
+  text-align: center;
+  margin: 5px;
+}
+
+.p-created-content .card-one-content .timer .timing .time-unit {
+  background: rgba(36, 36, 53, 0.82);
+  border-radius: 2.64494px;
+  padding: 8px;
+
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.p-created-content .card-one-content .timer .timing .time-type {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 14px;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4px;
+  color: #ffffff;
+}
+
+.p-created-content .card-one-content .timer .name {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: justify;
+
+  color: #848484;
+}
+
+/* =======================Favorite=================================*/
+
+.favorite .grid-display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.favorite .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2px;
+  background-color: #000000;
+  padding: 10px;
+
+  border-radius: 7px;
+}
+
+.favorite .grid-container .item {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+  position: relative;
+}
+
+.favorite .grid-container .heart-ico {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.favorite .grid-container .item img {
+  border-radius: 5px;
+}
+
+.favorite .item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.favorite .favorite-bottom {
+  /* width: 100%; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5px;
+}
+
+.favorite .favorite-bottom h3 {
+  font-family: "Trap600";
+  font-style: normal;
+  font-size: 24.8702px;
+  line-height: 27px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+.favorite .favorite-bottom button {
+  background: #ffffff;
+  border-radius: 4.14503px;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+
+  font-family: "Trap400";
+  font-size: 20px;
+  line-height: 23px;
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+/* =======================about=================================*/
+
+.about {
+  margin-top: 50px;
+  background: #fcfcfc;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 78px 100px 72px 40px;
+}
+
+.about .left .city-name {
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.about .left .membership {
+  font-family: "Trap300";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.about .left .artist {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  padding-top: 20px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.about .left .para {
+  font-family: "Trap300";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: justify;
+  padding-top: 10px;
+  color: #000000;
+}
+
+.about .left .location {
+  font-family: "Trap400";
+  font-size: 20px;
+  line-height: 22px;
+  padding-top: 30px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.about .left .address {
+  font-family: "Trap300";
+  font-size: 16px;
+  line-height: 18px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.about .right {
+  padding-top: 60px;
+  padding-left: 200px;
+}
+
+.about .right .social {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.about .right .social-icon {
+  padding-top: 16px;
+}
+
+.about .right .social-icon .ico {
+  margin: 0px 20px;
+}
+
+.about .right .social-icon .ico-one {
+  margin-left: 0px !important;
+}
+
+.about .right .profile-ranking {
+  padding-top: 120px;
+
+  font-family: "Trap400";
+  font-size: 20px;
+  line-height: 22px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.about .right .profile-stars {
+  font-family: "Trap300";
+  font-size: 16px;
+  line-height: 18px;
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+/* ================================1550 amd 1440 ====================== */
+@media screen and (max-width: 1550px) {
+  .categories {
+    width: 85%;
+    margin: 0 auto;
+    padding: 140px 0px;
+  }
+
+  .about .right .social-icon .ico {
+    margin: 0px 7px;
+  }
+}
+
+/* ================================1550 amd 1440 ====================== */
+@media screen and (max-width: 1550px) {
+  .categories {
+    width: 90%;
+    margin: 0 auto;
+    padding: 140px 0px;
+  }
+}
+
+/* ================================1368 and 1280 ====================== */
+@media screen and (max-width: 1369px) {
+  .categories {
+    width: 90%;
+    margin: 0 auto;
+    padding: 140px 0px;
+  }
+  .p-created-content .all-card-2 {
+    background-color: #000000;
+    height: 640px;
+  }
+}
+
+/* ================================1024 ====================== */
+@media screen and (max-width: 1080px) {
+  .categories {
+    width: 95%;
+    margin: 0 auto;
+    padding: 140px 0px;
+  }
+
+  .p-created-content .all-card-2 {
+    background-color: #000000;
+    height: 580px;
+  }
+
+  .about .right {
+    padding-top: 60px;
+    padding-left: 130px;
+  }
+}

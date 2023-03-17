@@ -1,6 +1,7 @@
 .bike {
   padding-top: 130px;
   padding-left: 90px;
+  padding-bottom: 80px;
 
   overflow: hidden;
   width: 100%;
@@ -8,6 +9,8 @@
 
 .bike .jiang-miao {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bike .name {
@@ -33,13 +36,99 @@
   color: #000000;
 }
 
+.bike .follow-btn {
+  margin-top: 40px;
+  filter: drop-shadow(0px 3.88594px 3.88594px rgba(0, 0, 0, 0.25));
+  background: rgba(4, 4, 4, 0.8);
+  padding: 15px 40px;
+
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 11px;
+  text-align: justify;
+  border: none;
+  outline: none;
+
+  color: #ffffff;
+}
+
+.bike .description {
+  padding-top: 40px;
+
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.bike .description p {
+  text-align: justify;
+}
+
+.bike .slider-container img {
+  /* background-color: red; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90% !important;
+}
+
+.bike .slider-container h3 {
+  font-family: "Trap500";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+
+  color: #000000;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+
+.bike .slick-prev,
+.bike .slick-next {
+  top: 103%;
+  /* bottom: -5% !important; */
+  width: 20px;
+  height: 20px;
+}
+
+.bike .slick-prev {
+  left: 90% !important;
+  z-index: 999;
+  /* background: red; */
+}
+
+.bike .slick-prev:before {
+  content: url(../../../../public/asset/Artistpage/left.svg) !important;
+}
+
+.bike .slick-next {
+  right: 60px !important;
+  /* background-color: red; */
+  z-index: 999;
+}
+
+.bike .slick-next:before {
+  content: url(../../../../public/asset/Artistpage/right.svg) !important;
+}
+
+/* divider sectiion */
+
 .bike-divider {
   /* border: 1px solid #beb5b5; */
   background-color: #beb5b5;
-  margin: 80px 50px;
+  margin: 80px 70px;
   padding: 1px 50px;
   overflow: hidden;
 }
+
+/* comimg sectiion */
 
 .coming {
   width: 100%;
@@ -62,4 +151,100 @@
   text-transform: capitalize;
 
   color: #000000;
+}
+
+/* ====================1600================================  */
+
+@media screen and (max-width: 1700px) {
+  .bike .slick-prev {
+    left: 87% !important;
+    z-index: 999;
+    /* background: red; */
+  }
+
+  .bike .bike-right {
+    margin: auto;
+  }
+}
+
+/* ====================1536 and 1440================================  */
+
+@media screen and (max-width: 1550px) {
+  .bike .name {
+    font-size: 26px;
+    line-height: 24px;
+  }
+  .bike .work {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .bike .follow-btn {
+    margin-top: 12px;
+  }
+  .bike .description {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+}
+
+/* ====================1368================================  */
+
+@media screen and (max-width: 1390px) {
+  .banner {
+    height: 430px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+  .banner button {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 8px 30px;
+  }
+  .banner-bottom {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 30px 120px;
+  }
+  .bike .slick-prev {
+    left: 85% !important;
+  }
+  .bike .description {
+    padding-top: 20px;
+    font-size: 14px;
+  }
+}
+
+/* ====================1280================================  */
+
+@media screen and (max-width: 1290px) {
+  .bike .name {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .bike .work {
+    font-size: 12px;
+    line-height: 18px;
+    /* text-align: center; */
+    padding-left: 0px;
+  }
+}
+
+/* ====================1024================================  */
+
+@media screen and (max-width: 1090px) {
+  .banner p {
+    font-size: 18px;
+  }
+  .bike .work {
+    font-size: 8px;
+    line-height: 18px;
+    /* text-align: center; */
+    padding-left: 0px;
+  }
+  .bike .slick-prev {
+    left: 80% !important;
+  }
 }

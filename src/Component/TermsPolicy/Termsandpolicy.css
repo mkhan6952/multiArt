@@ -1,0 +1,237 @@
+.terms-main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.terms-main .terms-upper {
+  background: #000000;
+  text-align: center;
+  padding: 140px 0px;
+}
+
+.terms-main .terms-upper h4 {
+  margin: 0px;
+
+  font-family: "Trap400";
+  font-size: 60px;
+  line-height: 66px;
+
+  color: #ffffff;
+}
+
+.terms-main .terms-bottom {
+  padding-top: 90px;
+  padding-bottom: 100px;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.terms-main .left h2 {
+  margin: 0px;
+
+  font-family: "Trap700";
+  font-size: 48px;
+  line-height: 120%;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.terms-main .left span {
+  margin: 0px;
+
+  font-family: "Trap400";
+  font-size: 18px;
+  line-height: 160%;
+
+  letter-spacing: 0.02em;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.terms-main .terms-bottom .left h4 {
+  margin-top: 40px;
+
+  font-family: "Trap600";
+  font-size: 30px;
+  line-height: 33px;
+
+  color: #000000;
+  /* background-color: red */
+}
+
+.terms-main .terms-bottom .left .desc {
+  font-family: "Trap400";
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 20px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.terms-main .terms-bottom .responsibilty {
+  padding-top: 120px;
+  padding-left: 80px;
+}
+
+.terms-main .terms-bottom .responsibilty h3 {
+  font-family: "Trap500";
+  font-size: 30px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.terms-main .terms-bottom .responsibilty p {
+  padding-top: 15px;
+
+  font-family: "Trap300";
+  font-size: 16px;
+  line-height: 160%;
+  text-align: justify;
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.terms-main .terms-bottom .res-center {
+  padding-top: 45px;
+}
+
+.terms-main .terms-bottom .res-bottom {
+  padding-top: 45px;
+}
+
+/* ========================PrivacyPolicy========================= */
+
+.policy-main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.policy-main .policy-upper {
+  background: #000000;
+  text-align: center;
+  padding: 140px 0px;
+}
+
+.policy-main .policy-upper h4 {
+  margin: 0px;
+
+  font-family: "Trap400";
+  font-size: 60px;
+  line-height: 66px;
+
+  color: #ffffff;
+}
+
+.policy-main .policy-upper h6 {
+  margin: 0px;
+
+  font-family: "Trap300";
+  font-size: 15px;
+  line-height: 17px;
+
+  color: #717171;
+}
+
+.policy-main .policy-bottom {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+
+/* policy table of content */
+
+.policy-main .policy-bottom .table-content {
+  font-family: "Trap700";
+  font-size: 30px;
+  line-height: 33px;
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.policy-main .policy-bottom .table-content .title {
+  padding-top: 25px;
+}
+
+.policy-main .policy-bottom .table-content .title h3 {
+  font-family: "Trap700";
+  font-size: 14px;
+  line-height: 50px;
+  text-decoration-line: underline;
+
+  color: #000000;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+  cursor: pointer;
+}
+
+/* policy summary  */
+
+.policy-main .policy-bottom .privacy-summary h3 {
+  font-family: "Trap500";
+  font-size: 20px;
+  line-height: 22px;
+
+  color: #505050;
+}
+
+.policy-main .policy-bottom .privacy-summary h1 {
+  font-family: "Trap700";
+  font-size: 30px;
+  line-height: 33px;
+  text-decoration-line: underline;
+
+  color: #000000;
+  padding: 40px 0px;
+}
+
+.policy-main .policy-bottom .privacy-summary .desc {
+  font-family: "Trap300";
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+/* legal info  */
+.policy-main .policy-bottom .legal-info {
+  font-family: "Trap700";
+  font-size: 30px;
+  line-height: 33px;
+  padding-left: 80px;
+
+  color: #000000;
+}
+
+.policy-main .policy-bottom .legal-info .legal-info-conatiner {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  background: #eceaea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26.5px;
+  padding: 11px 29px 10px 11px;
+  margin-top: 20px;
+  height: 60px;
+  width: 280px;
+
+  cursor: pointer;
+}
+
+.policy-main .policy-bottom .legal-info .legal-info-conatiner p {
+  font-family: "Trap400";
+  font-size: 12px;
+  line-height: 13px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  color: #000000;
+}

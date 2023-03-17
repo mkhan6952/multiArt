@@ -1,0 +1,382 @@
+/*================= categories===============*/
+
+.explore-tabs {
+  width: 85%;
+  margin: 0 auto;
+  padding: 140px 0px;
+  position: relative;
+  /* background: red; */
+}
+
+.explore-tabs .nav-pills .nav-link,
+.explore-tabs .nav-pills .show > .nav-link {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.627px;
+  line-height: 23px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.explore-tabs .nav-link {
+  font-family: "Trap600";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  padding: 0;
+  color: #000000;
+  border: none;
+  margin-right: 60px;
+}
+
+.explore-tabs .nav-link.active {
+  position: relative;
+  background-color: transparent !important;
+  color: #000000;
+}
+.explore-tabs .nav-link.active::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  bottom: -60%;
+  left: 0;
+}
+
+.explore-tabs .filter {
+  /* background-color: yellow; */
+  position: absolute;
+  right: 0px;
+  /* top: 0px; */
+}
+
+.explore-tabs .dropdown {
+  height: 80px;
+}
+
+.explore-tabs .dropdown button {
+  border: 2px solid #000000;
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  height: 40px;
+  /* padding: 20px; */
+  color: #000000;
+  background-color: transparent;
+  display: flex;
+}
+
+.explore-tabs .dropdown button span {
+  background-color: #151515;
+  height: 40px;
+  margin-top: -8px;
+  padding: 13px;
+  margin-left: -13px;
+  padding-right: 20px;
+  margin-right: 11px;
+  border-radius: 2px;
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.explore-tabs .dropdown-toggle::after {
+  margin-left: 15px !important;
+  margin-top: -2px !important;
+
+  content: url("../../../../public/asset/explorenft/back-arrow.svg");
+  border: none;
+}
+
+.explore-tabs .dropdown-menu {
+  min-width: 11.7rem;
+  background-color: #fff;
+  /* border: 1px solid ; */
+  border-radius: 0px;
+}
+
+.explore-tabs .btn-check:focus + .btn-primary,
+.explore-tabs .btn-primary:focus {
+  box-shadow: none;
+}
+
+.explore-tabs .btn-primary:active:focus {
+  box-shadow: none;
+}
+
+.explore-tabs .dropdown-item.active,
+.explore-tabs .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e9ecef;
+}
+
+.explore-tabs .tab-content {
+  padding-top: 100px;
+}
+
+/* ========================================explore work==================================== */
+
+.explore-artwork {
+  padding-top: 45px;
+}
+
+.explore-artwork .image-container {
+  position: relative;
+  /* background-color: red; */
+}
+
+.explore-artwork .image-container .main-image {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.explore-artwork .left {
+  height: 450px;
+  /* background-color: red; */
+}
+
+.explore-artwork .left .row {
+  --bs-gutter-x: 10px !important;
+}
+
+.explore-artwork .left .other-image {
+  margin: auto;
+  position: absolute;
+  bottom: 25px;
+  padding: 0px 30px;
+}
+
+.explore-artwork .left .other-image img {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.explore-artwork .left .del-btn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.explore-artwork-outer .row {
+  --bs-gutter-x: 0rem !important;
+}
+
+.explore-artwork .right {
+  height: 450px;
+  background-color: #000000;
+
+  padding-top: 45px;
+  padding-left: 55px;
+}
+
+.explore-artwork .right .abstract {
+  display: flex;
+  align-items: center;
+}
+
+.explore-artwork .right .abstract h3 {
+  font-family: "Trap400";
+  font-size: 32.0833px;
+  line-height: 35px;
+  padding-left: 20px;
+  color: #fff7f7;
+}
+
+.explore-artwork .right .artist {
+  padding-top: 60px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding-right: 60px;
+}
+
+.explore-artwork .right .artist .title {
+  font-family: "Trap400";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.explore-artwork .right .artist .name {
+  font-family: "Trap500";
+  font-size: 25px;
+  line-height: 28px;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.explore-artwork .right .collectors-image {
+  position: relative;
+}
+
+.explore-artwork .right .collectors-image .one {
+  position: absolute;
+  left: 0px;
+  z-index: 3;
+}
+
+.explore-artwork .right .collectors-image .two {
+  position: absolute;
+  left: 40px;
+  z-index: 2;
+}
+
+.explore-artwork .right .collectors-image .three {
+  position: absolute;
+  left: 80px;
+  z-index: 1;
+}
+
+.explore-artwork .right h5 {
+  font-family: "Trap300";
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  padding-top: 45px;
+}
+
+.explore-artwork .right p {
+  font-family: "Trap300";
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+
+  padding-top: 15px;
+  padding-right: 60px;
+}
+
+.explore-artwork .left .del-btn {
+  font-family: "Trap600";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+/* ========================================explore collection==================================== */
+
+.explore-collection-main {
+  position: relative;
+  /* background-color: red; */
+}
+
+.explore-collection .header {
+  position: relative;
+}
+
+.explore-collection .header .header-main-image {
+  width: 100%;
+}
+
+.heart {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.explore-collection .bottom {
+  background-color: #000000;
+}
+
+.explore-collection .bottom h2 {
+  font-family: "Trap400";
+  font-size: 18.9737px;
+  text-align: justify;
+  padding-top: 20px;
+  padding-left: 16px;
+  margin-bottom: 0px;
+
+  color: #ffffff;
+}
+
+.explore-collection .bottom h4 {
+  font-family: "Trap400";
+  font-size: 10px;
+  line-height: 11px;
+  padding-left: 16px;
+  margin-bottom: 0px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+.explore-collection .bottom .price {
+  font-family: "Trap300";
+  font-size: 18px;
+  line-height: 23px;
+  text-align: justify;
+  color: #848484;
+  padding: 10px 16px 17px 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explore-collection-main .filter-box {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  background-color: red;
+  position: absolute;
+  top: -155px;
+  right: 0px;
+}
+
+.explore-collection-main label {
+  margin-right: 10px;
+  background: #151515;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: -4px;
+  z-index: 999;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Trap400";
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.explore-collection-main select {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  flex: 1;
+  height: 40px;
+
+  font-family: "Trap400";
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #000000;
+}
